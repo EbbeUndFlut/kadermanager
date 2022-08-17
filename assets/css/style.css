@@ -2,13 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
+header {
+    margin: 10px 0 30px 5px;
+}
 
 section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 20px 0 0 0;
 }
 
 .divider {
@@ -32,4 +37,6 @@ section {
 
 .playerContainer {
     border: 1px solid tomato;
+    font-size: 32px;
+    background: rgb(161, 159, 159);
 }
